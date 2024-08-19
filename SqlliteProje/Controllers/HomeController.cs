@@ -25,7 +25,6 @@ namespace SqlliteProje.Controllers
             }
             return View(model: list);
         }
-
         public IActionResult Privacy()
         {
             return View();
