@@ -1,0 +1,10 @@
+﻿@using Sqllite.Data.Table
+@model List<Category>
+@{
+    ViewData["Title"] = "Home Page";
+}
+@foreach(var item in Model)
+{
+    <p>@item.Name </p>
+}
+
